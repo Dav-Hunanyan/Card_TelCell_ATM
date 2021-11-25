@@ -1,0 +1,37 @@
+C:\Users\david.hunanyan\Desktop\New folder\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.exe
+C:\Users\david.hunanyan\Desktop\New folder\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.deps.json
+C:\Users\david.hunanyan\Desktop\New folder\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.json
+C:\Users\david.hunanyan\Desktop\New folder\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.dev.json
+C:\Users\david.hunanyan\Desktop\New folder\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.dll
+C:\Users\david.hunanyan\Desktop\New folder\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.pdb
+C:\Users\david.hunanyan\Desktop\New folder\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csprojAssemblyReference.cache
+C:\Users\david.hunanyan\Desktop\New folder\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\david.hunanyan\Desktop\New folder\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
+C:\Users\david.hunanyan\Desktop\New folder\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
+C:\Users\david.hunanyan\Desktop\New folder\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
+C:\Users\hunan\Desktop\Davit Hunanyan-Hayk Pogosyan\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.exe
+C:\Users\hunan\Desktop\Davit Hunanyan-Hayk Pogosyan\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.deps.json
+C:\Users\hunan\Desktop\Davit Hunanyan-Hayk Pogosyan\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.json
+C:\Users\hunan\Desktop\Davit Hunanyan-Hayk Pogosyan\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.dev.json
+C:\Users\hunan\Desktop\Davit Hunanyan-Hayk Pogosyan\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.dll
+C:\Users\hunan\Desktop\Davit Hunanyan-Hayk Pogosyan\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.pdb
+C:\Users\hunan\Desktop\Davit Hunanyan-Hayk Pogosyan\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csprojAssemblyReference.cache
+C:\Users\hunan\Desktop\Davit Hunanyan-Hayk Pogosyan\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\hunan\Desktop\Davit Hunanyan-Hayk Pogosyan\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
+C:\Users\hunan\Desktop\Davit Hunanyan-Hayk Pogosyan\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\hunan\Desktop\Davit Hunanyan-Hayk Pogosyan\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
+C:\Users\hunan\Desktop\Davit Hunanyan-Hayk Pogosyan\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
+C:\Users\hunan\Desktop\Davit Hunanyan-Hayk Pogosyan\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache
+C:\Users\hunan\Desktop\downtown\Davit Hunanyan-Hayk Pogosyan\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.exe
+C:\Users\hunan\Desktop\downtown\Davit Hunanyan-Hayk Pogosyan\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.deps.json
+C:\Users\hunan\Desktop\downtown\Davit Hunanyan-Hayk Pogosyan\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.json
+C:\Users\hunan\Desktop\downtown\Davit Hunanyan-Hayk Pogosyan\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.dev.json
+C:\Users\hunan\Desktop\downtown\Davit Hunanyan-Hayk Pogosyan\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.dll
+C:\Users\hunan\Desktop\downtown\Davit Hunanyan-Hayk Pogosyan\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.pdb
+C:\Users\hunan\Desktop\downtown\Davit Hunanyan-Hayk Pogosyan\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csprojAssemblyReference.cache
+C:\Users\hunan\Desktop\downtown\Davit Hunanyan-Hayk Pogosyan\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\hunan\Desktop\downtown\Davit Hunanyan-Hayk Pogosyan\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
+C:\Users\hunan\Desktop\downtown\Davit Hunanyan-Hayk Pogosyan\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\hunan\Desktop\downtown\Davit Hunanyan-Hayk Pogosyan\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
+C:\Users\hunan\Desktop\downtown\Davit Hunanyan-Hayk Pogosyan\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
+C:\Users\hunan\Desktop\downtown\Davit Hunanyan-Hayk Pogosyan\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache
