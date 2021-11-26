@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
+using System.Text.Json;
 
 namespace ConsoleApp1
 {
@@ -30,25 +32,29 @@ namespace ConsoleApp1
 
             Console.Write("Please enter your card ID: ");
             int card_id = int.Parse(Console.ReadLine());
-            if (card_id != card.Card_Id)
+            try
             {
-                Console.WriteLine("Wrong Id");
+                if (card.Card_Id != card_id)
+                {
+                    throw new Exception("Wrong Id");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
                 return;
             }
-            else
+
+            Console.Write("Enter money you want to set(0-50,000): ");
+            int money = int.Parse(Console.ReadLine());
+            if (money > Valid_money)
             {
-                Console.Write("Enter money you want to set(0-50,000): ");
-                int money = int.Parse(Console.ReadLine());
-                if (money > Valid_money)
-                {
-                    Console.WriteLine("You can't set so much money");
-                    return;
-                }
-                card.Money += money;
-                Console.WriteLine("You succsed");
+                Console.WriteLine("You can't set so much money");
+                return;
             }
+            card.Money += money;
+            Console.WriteLine("You succsed");
+
         }
-
-
     }
 }

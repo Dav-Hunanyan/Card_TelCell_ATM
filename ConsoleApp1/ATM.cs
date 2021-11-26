@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Data;
+using System.Text.Json;
+using System.IO;
 
 namespace ConsoleApp1
 {
@@ -19,7 +21,7 @@ namespace ConsoleApp1
 
             if (card.Type != Card_Type)
             {
-                Console.WriteLine("This bancomad is reading only " + Card_Type);
+                Console.WriteLine("This ATM is reading only " + Card_Type);
                 return;
             }
             else if (card.Using_Date < DateTime.Now)
@@ -40,12 +42,26 @@ namespace ConsoleApp1
                 {
                     Console.Write("Please enter your password: ");
                     password = int.Parse(Console.ReadLine());
-                    if (card.Password != password)
+                    try
                     {
-                        Console.WriteLine("Wrong Password");
-                        count++;
+                        if (card.Password != password)
+                        {
+                            count++;
+                            throw new PasswordException("Wrong Password");
+                        }
                     }
+                    catch (PasswordException ex)
+                    {
+                        Console.WriteLine(ex.Message);
+                        string jsonString = JsonSerializer.Serialize(card);
+                        DateTime dateTime = DateTime.Now;
 
+                        using (StreamWriter writer = new StreamWriter(@"C:\Users\hunan\Desktop\downtown\Card_ATM_TelCell\Card_TelCell_ATM\Password.txt"))
+                        {
+                            writer.WriteLine(jsonString + "\nWrong Password: " + password + "  Date: " + dateTime);
+
+                        } ;
+                    }
 
                 } while (password != card.Password && count < 3);
                 if (count == 3)
@@ -63,8 +79,17 @@ namespace ConsoleApp1
                 }
                 else
                 {
-                    card.Money -= money;
-                    Console.WriteLine("You succsed");
+                    if (Money >= money)
+                    {
+                        card.Money -= money;
+                        Money -= money;
+                        Console.WriteLine("You succsed");
+                    }
+                    else
+                    {
+                        Console.WriteLine("ATM is empty");
+                    }
+
                 }
             }
         }

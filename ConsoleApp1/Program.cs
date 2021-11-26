@@ -21,11 +21,13 @@ namespace ConsoleApp1
                 Command: Console.WriteLine("Please choose command");
                 Console.Write("1.Create 2.Use  3.Exit : ");
                 string command = Console.ReadLine();
+                Console.WriteLine();
                 switch (command)
                 {
                     case "1":
                         Console.WriteLine("1.Card 2.ATM 3.Telcell");
                         string creat = Console.ReadLine();
+                        Console.WriteLine();
                         switch (creat)
                         {
                             case "1":
@@ -52,7 +54,7 @@ namespace ConsoleApp1
                                     }
                                 }
                                 DateTime date = new DateTime(2022, 5, 5);
-                                Type: Console.WriteLine("Choose type 1.Visa 2.Master");
+                                Type: Console.Write("Choose type 1.Visa 2.Master  :");
                                 int choose = int.Parse(Console.ReadLine());
                                 string cardtype;
                                 if (choose == 1)
@@ -71,23 +73,22 @@ namespace ConsoleApp1
                                 {
                                     goto Type;
                                 }
-
-
                                 break;
                             case "2":
+                                Console.WriteLine();
                                 Console.WriteLine("Choose ATM type");
-                                Console.WriteLine("1.Visa 2.Master");
+                                Console.Write("1.Visa 2.Master  :");
                                 string type = Console.ReadLine();
                                 if (type == "1")
                                 {
                                     atms.Add(new ATM("Visa"));
-                                    Console.WriteLine("Succsed");
+                                    Console.WriteLine("Success");
 
                                 }
                                 else if (type == "2")
                                 {
                                     atms.Add(new ATM("Master"));
-                                    Console.WriteLine("Succsed");
+                                    Console.WriteLine("Success");
 
                                 }
                                 else
@@ -98,8 +99,9 @@ namespace ConsoleApp1
 
                                 break;
                             case "3":
+                                
                                 telCells.Add(new TelCell());
-                                Console.WriteLine("Succsed");
+                                Console.WriteLine("Success");
                                 break;
 
                             default:
@@ -108,11 +110,13 @@ namespace ConsoleApp1
                         }
                         break;
                     case "2":
-                        Console.WriteLine("Select card");
+                       
                         for (int i = 0; i < cards.Count; i++)
                         {
                             Console.WriteLine((i + 1) + ". " + cards[i].Name + " " + cards[i].Surname);
                         }
+                        Console.WriteLine();
+                        Console.Write("Select card: ");
                         int cardnumber = int.Parse(Console.ReadLine());
                         if (cardnumber > cards.Count)
                         {
@@ -120,6 +124,7 @@ namespace ConsoleApp1
                             goto Command;
 
                         }
+                        Console.WriteLine();
                         Console.WriteLine("Name." + cards[cardnumber - 1].Name + "  Surname." + cards[cardnumber - 1].Surname + "  Card type" + cards[cardnumber - 1].Type);
                         Console.WriteLine("Password." + cards[cardnumber - 1].Password + "  Id." + cards[cardnumber - 1].Card_Id + "  Money." + cards[cardnumber - 1].Money + "$");
                         if (cards[cardnumber - 1].Limited == false)
@@ -132,8 +137,10 @@ namespace ConsoleApp1
                             Console.WriteLine("Your card date is invalid");
                             break;
                         }
+                        Console.WriteLine();
                         Console.WriteLine("Do you need 1.ATM 2.Telcell");
                         int command1 = int.Parse(Console.ReadLine());
+                        Console.WriteLine();
                         switch (command1)
                         {
                             case 1:
@@ -176,7 +183,7 @@ namespace ConsoleApp1
                         goto Command;
                 }
                 Console.WriteLine();
-              
+
             } while (true);
 
         }
